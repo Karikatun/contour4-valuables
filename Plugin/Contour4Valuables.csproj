@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>netstandard2.1</TargetFramework><LangVersion>12</LangVersion><AssemblyName>Contour4Valuables</AssemblyName><Version>0.2.3</Version><Nullable>enable</Nullable><Deterministic>true</Deterministic><TreatWarningsAsErrors>true</TreatWarningsAsErrors><DebugType>none</DebugType></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp;UnityEngine;UnityEngine.CoreModule;UnityEngine.PhysicsModule;UnityEngine.ImageConversionModule;UnityEngine.JSONSerializeModule;UnityEngine.AIModule;UnityEngine.AssetBundleModule;UnityEngine.AudioModule;UnityEngine.ParticleSystemModule"><HintPath>$(GameManaged)/%(Identity).dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BepInEx;0Harmony"><HintPath>$(BepInExCore)/%(Identity).dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="REPOLib"><HintPath>$(RepoLibPath)</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
+
