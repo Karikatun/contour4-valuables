@@ -1,0 +1,234 @@
+{
+  "key": "atwood-machine",
+  "source": "C:\\Users\\B-ZONE\\Documents\\ChatGPT\\space-journey\\prototype\\valuable-models\\gravity-lab-meshy\\textured\\26-atwood-machine\\26-atwood-machine.blend",
+  "sourceSha256": "e9b98e179caf13327a3eed07a65b85850b398a5b8b41783a53294a7d092a6a31",
+  "nativeGeometrySignature": "a220cb7911ed6a0a317507e441db1617b81e9e703460bd20dab270cc2bd43577",
+  "triangles": 3185,
+  "parts": 45,
+  "objects": 45,
+  "nativeBoundsMinXYZ": [
+    -0.2605843245983124,
+    -0.23106099665164948,
+    0.0
+  ],
+  "nativeBoundsMaxXYZ": [
+    0.2605843245983124,
+    0.23106099665164948,
+    0.800000011920929
+  ],
+  "unitySizeXYZ": [
+    0.5211686491966248,
+    0.800000011920929,
+    0.46212199330329895
+  ],
+  "pivot": "existing bottom-center; no coordinate alteration",
+  "normalOrientationScore": 1.0,
+  "sourceOpposingNormalTriangles": 0,
+  "sourceOpposingNormalAreaFraction": 0.0,
+  "materials": {
+    "Charcoal_cast_iron": {
+      "key": "Charcoal_cast_iron",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Brushed_dull_steel": {
+      "key": "Brushed_dull_steel",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Warm_dulled_brass": {
+      "key": "Warm_dulled_brass",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Black_rope_and_knife": {
+      "key": "Black_rope_and_knife",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Pulley_concentric_brushed_steel": {
+      "key": "Pulley_concentric_brushed_steel",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Aged_ivory_enamel": {
+      "key": "Aged_ivory_enamel",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Satin_scale_with_dimension_marks": {
+      "key": "Satin_scale_with_dimension_marks",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    }
+  },
+  "maps": {
+    "color.png": {
+      "sha256": "cdc279936790e30f349122e37e0d6f796b432df43dd2f17cf127ef96235726ff",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "normal.png": {
+      "sha256": "475462483f5607e63295a78abb2d6c50ec02b792b2896ad83828415787f4ef4b",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "roughness.png": {
+      "sha256": "e2872fd725c002810366c3385e1a4ecb720204b054ff7d3190b8f2fcc6327525",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metallic.png": {
+      "sha256": "aa0dae003d9987daafffafc0af598b285e5303954b843b2f143379f53f5e730c",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "orm.png": {
+      "sha256": "8396278fefebc9d1a7b24535463ba765034f876eb604d63f6ce9706ff95df47c",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metal.png": {
+      "sha256": "de1829f62d6e2c6f69310ad2a9c8e5a4b5fe094c59b22c8c04b644b7d9e698e2",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    }
+  },
+  "checks": {
+    "sourceBytesPreserved": true,
+    "nativeGeometryUVSignaturePreserved": true,
+    "serializedLoopArraysExact": true,
+    "triangles": true,
+    "finiteGeometryUVNormals": true
+  },
+  "excludedObjects": [
+    "_Review_Ground"
+  ],
+  "methodology": "Harness2 methodology-only; preserve native baseline, exact transfer and channel packing probe",
+  "limits": [
+    "Unity validation owned by companion agent",
+    "shapeCandidates are geometric evidence, not approved physical colliders"
+  ],
+  "outputs": {
+    "26-atwood-machine.fbx": "ff6e4a88c306d4f55caa8c203e421ca50c369fbb21818c9c971f773df7376627",
+    "color.png": "cdc279936790e30f349122e37e0d6f796b432df43dd2f17cf127ef96235726ff",
+    "mesh.json": "f079226eeb632a269800fd318ddd9c3cbfa390a82be76e9ea4fbb58b6f7d6d9e",
+    "metal.png": "de1829f62d6e2c6f69310ad2a9c8e5a4b5fe094c59b22c8c04b644b7d9e698e2",
+    "metallic.png": "aa0dae003d9987daafffafc0af598b285e5303954b843b2f143379f53f5e730c",
+    "normal.png": "475462483f5607e63295a78abb2d6c50ec02b792b2896ad83828415787f4ef4b",
+    "orm.png": "8396278fefebc9d1a7b24535463ba765034f876eb604d63f6ce9706ff95df47c",
+    "roughness.png": "e2872fd725c002810366c3385e1a4ecb720204b054ff7d3190b8f2fcc6327525"
+  }
+}

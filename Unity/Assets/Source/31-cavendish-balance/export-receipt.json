@@ -1,0 +1,270 @@
+{
+  "key": "cavendish-balance",
+  "source": "C:\\Users\\B-ZONE\\Documents\\ChatGPT\\space-journey\\prototype\\valuable-models\\gravity-lab-meshy\\textured\\31-cavendish-balance\\31-cavendish-balance.blend",
+  "sourceSha256": "3603ec3819dd752269237f396d610f6a43ae82990dca4612436ecfbe643b648f",
+  "nativeGeometrySignature": "dee36885c9ae11f92bc70afacc2f1d93ca542dbbfb3e7286f4ad620fe26c2ba7",
+  "triangles": 4040,
+  "parts": 107,
+  "objects": 105,
+  "nativeBoundsMinXYZ": [
+    -0.8999999761581421,
+    -0.41144609451293945,
+    0.0
+  ],
+  "nativeBoundsMaxXYZ": [
+    0.8999999761581421,
+    0.41144609451293945,
+    1.0844149589538574
+  ],
+  "unitySizeXYZ": [
+    1.7999999523162842,
+    1.0844149589538574,
+    0.8228921890258789
+  ],
+  "pivot": "existing bottom-center; no coordinate alteration",
+  "normalOrientationScore": 1.0,
+  "sourceOpposingNormalTriangles": 0,
+  "sourceOpposingNormalAreaFraction": 0.0,
+  "materials": {
+    "Machined steel bearings and fasteners": {
+      "key": "Machined steel bearings and fasteners",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Blackened steel case frames": {
+      "key": "Blackened steel case frames",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Neutral clear optical chamber glass": {
+      "key": "Neutral clear optical chamber glass",
+      "colorTexture": "",
+      "normalTexture": "",
+      "metalTexture": "",
+      "color": [
+        0.9900000095367432,
+        0.9900000095367432,
+        0.9900000095367432,
+        0.16
+      ],
+      "metallic": 0.0,
+      "smoothness": 0.9649999998509884,
+      "sourceAlpha": 1.0,
+      "transmission": 1.0,
+      "ior": 1.4600000381469727,
+      "unityGlassApproximation": true
+    },
+    "Brass test masses and suspension": {
+      "key": "Brass test masses and suspension",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Aged cream carrying loops": {
+      "key": "Aged cream carrying loops",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Dark slate steel laboratory deck": {
+      "key": "Dark slate steel laboratory deck",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Dark lead steel attracting masses": {
+      "key": "Dark lead steel attracting masses",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Silver coated central mirror": {
+      "key": "Silver coated central mirror",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Faded oxide red swivel yoke": {
+      "key": "Faded oxide red swivel yoke",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    }
+  },
+  "maps": {
+    "color.png": {
+      "sha256": "a58c1cbf9b90f6c635c52a9281b6a13b0368ced0340e39c50db5924647b8c04f",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "normal.png": {
+      "sha256": "529bdc47c86eab95ff26292fbb389118ca7b0a8cd88bc7de90008d4c41135a9b",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "roughness.png": {
+      "sha256": "7c7192fec468c60e01c1a5175207ade361fd6b3720831d7b3ef4e6ea8562ddd4",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "metallic.png": {
+      "sha256": "24a47d4b75349c5603993a1803a314a0962bc0c4acc19c4b207cfbe2cbf89ae0",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "orm.png": {
+      "sha256": "124e2f25a3dba55be40b06849f7bae5a0b83df3a9a600dbea51be59f12640f3d",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "metal.png": {
+      "sha256": "a7a09b63fc98a241174e948dfd1d718f509f0ad5b8938af41eee7f6576364c3a",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    }
+  },
+  "checks": {
+    "sourceBytesPreserved": true,
+    "nativeGeometryUVSignaturePreserved": true,
+    "serializedLoopArraysExact": true,
+    "triangles": true,
+    "finiteGeometryUVNormals": true
+  },
+  "excludedObjects": [
+    "_Review_Ground"
+  ],
+  "methodology": "Harness2 methodology-only; preserve native baseline, exact transfer and channel packing probe",
+  "limits": [
+    "Unity validation owned by companion agent",
+    "shapeCandidates are geometric evidence, not approved physical colliders"
+  ],
+  "outputs": {
+    "31-cavendish-balance.fbx": "1b49daba650e82e1d6be92c1f6878a867a53b4454aa28e06a4315c363d5e97c8",
+    "color.png": "a58c1cbf9b90f6c635c52a9281b6a13b0368ced0340e39c50db5924647b8c04f",
+    "mesh.json": "109c2f549d36bcb5e351e533cb229628379f47d1926d78b1a2cc77f9d3be7a15",
+    "metal.png": "a7a09b63fc98a241174e948dfd1d718f509f0ad5b8938af41eee7f6576364c3a",
+    "metallic.png": "24a47d4b75349c5603993a1803a314a0962bc0c4acc19c4b207cfbe2cbf89ae0",
+    "normal.png": "529bdc47c86eab95ff26292fbb389118ca7b0a8cd88bc7de90008d4c41135a9b",
+    "orm.png": "124e2f25a3dba55be40b06849f7bae5a0b83df3a9a600dbea51be59f12640f3d",
+    "roughness.png": "7c7192fec468c60e01c1a5175207ade361fd6b3720831d7b3ef4e6ea8562ddd4"
+  }
+}

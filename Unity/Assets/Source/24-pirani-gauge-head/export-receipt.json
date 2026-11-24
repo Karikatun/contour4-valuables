@@ -1,0 +1,162 @@
+{
+  "key": "pirani-gauge-head",
+  "source": "C:\\Users\\B-ZONE\\Documents\\ChatGPT\\space-journey\\prototype\\valuable-models\\gravity-lab-meshy\\textured\\24-pirani-gauge-head\\24-pirani-gauge-head.blend",
+  "sourceSha256": "7f3ca3a7897c2981d52be424cee3a6897320b2e208e355de8f04fc346f32d287",
+  "nativeGeometrySignature": "345ad6305ea7ba8e38ef6739d69ce483d40b5b99eac31370013c741323b3e8de",
+  "triangles": 1828,
+  "parts": 3,
+  "objects": 1,
+  "nativeBoundsMinXYZ": [
+    -0.06000000238418579,
+    -0.02744518779218197,
+    0.0
+  ],
+  "nativeBoundsMaxXYZ": [
+    0.06000000238418579,
+    0.027445178478956223,
+    0.055563487112522125
+  ],
+  "unitySizeXYZ": [
+    0.12000000476837158,
+    0.055563487112522125,
+    0.05489036440849304
+  ],
+  "pivot": "existing bottom-center; no coordinate alteration",
+  "normalOrientationScore": 1.0,
+  "sourceOpposingNormalTriangles": 0,
+  "sourceOpposingNormalAreaFraction": 0.0,
+  "materials": {
+    "Pirani charcoal brushed sensing barrel": {
+      "key": "Pirani charcoal brushed sensing barrel",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Black Bakelite connector socket": {
+      "key": "Black Bakelite connector socket",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Socket brass contact pins and screws": {
+      "key": "Socket brass contact pins and screws",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    }
+  },
+  "maps": {
+    "color.png": {
+      "sha256": "e2b0f7df44afefc1c6768668468c29d89f088ddfa545ed9319227f78d3afcfdb",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "normal.png": {
+      "sha256": "d8a29a32a554dd77bb33c148974c611abeebc16fe1103a0c574f26d9a4da2e49",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "roughness.png": {
+      "sha256": "72ed29e5267cf08ab8b0adf70ca879a69388e623cd2f5a63d6692afa57bb216d",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metallic.png": {
+      "sha256": "f86e9a73b42728d60bbb5a4774a5f2df4b2f9acda2bc90ce76a4784d55c292dc",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "orm.png": {
+      "sha256": "96d199ac7b802780a3a3b2b0ccf7ce765a978f855b4f58836e38868bfccfe2d9",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metal.png": {
+      "sha256": "634e0d13670ec88391c78edefee7decec2ce3a3fe8b5089e16a4566cc5fdbc7e",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    }
+  },
+  "checks": {
+    "sourceBytesPreserved": true,
+    "nativeGeometryUVSignaturePreserved": true,
+    "serializedLoopArraysExact": true,
+    "triangles": true,
+    "finiteGeometryUVNormals": true
+  },
+  "excludedObjects": [
+    "_Review_Ground"
+  ],
+  "methodology": "Harness2 methodology-only; preserve native baseline, exact transfer and channel packing probe",
+  "limits": [
+    "Unity validation owned by companion agent",
+    "shapeCandidates are geometric evidence, not approved physical colliders"
+  ],
+  "outputs": {
+    "24-pirani-gauge-head.fbx": "120345d3ea9b493879ab385a9f9293c8be782d2a82fcbab3a8bf415a6fe7a34e",
+    "color.png": "e2b0f7df44afefc1c6768668468c29d89f088ddfa545ed9319227f78d3afcfdb",
+    "mesh.json": "2f1f14c76f23a91f15fba28bef7ce67a4b28a3801eea4ebb8b0c31c8d882f1b9",
+    "metal.png": "634e0d13670ec88391c78edefee7decec2ce3a3fe8b5089e16a4566cc5fdbc7e",
+    "metallic.png": "f86e9a73b42728d60bbb5a4774a5f2df4b2f9acda2bc90ce76a4784d55c292dc",
+    "normal.png": "d8a29a32a554dd77bb33c148974c611abeebc16fe1103a0c574f26d9a4da2e49",
+    "orm.png": "96d199ac7b802780a3a3b2b0ccf7ce765a978f855b4f58836e38868bfccfe2d9",
+    "roughness.png": "72ed29e5267cf08ab8b0adf70ca879a69388e623cd2f5a63d6692afa57bb216d"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "key": "kater-pendulum",
+  "source": "C:\\Users\\B-ZONE\\Documents\\ChatGPT\\space-journey\\prototype\\valuable-models\\gravity-lab-meshy\\textured\\27-kater-pendulum\\27-kater-pendulum.blend",
+  "sourceSha256": "fb2b9fa716648225b7becbbbdf53282125b8fd8c1949172ff4e6cc8a283a9cd3",
+  "nativeGeometrySignature": "616300b5dbeb8c2200414597c090cf03c2e6254b7b9c987f189544ecc9be7825",
+  "triangles": 3225,
+  "parts": 34,
+  "objects": 34,
+  "nativeBoundsMinXYZ": [
+    -0.2687852382659912,
+    -0.26951563358306885,
+    0.0
+  ],
+  "nativeBoundsMaxXYZ": [
+    0.2687852382659912,
+    0.26951563358306885,
+    0.949999988079071
+  ],
+  "unitySizeXYZ": [
+    0.5375704765319824,
+    0.949999988079071,
+    0.5390312671661377
+  ],
+  "pivot": "existing bottom-center; no coordinate alteration",
+  "normalOrientationScore": 1.0,
+  "sourceOpposingNormalTriangles": 0,
+  "sourceOpposingNormalAreaFraction": 0.0,
+  "materials": {
+    "Charcoal_cast_iron": {
+      "key": "Charcoal_cast_iron",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Aged_ivory_enamel": {
+      "key": "Aged_ivory_enamel",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Warm_dulled_brass": {
+      "key": "Warm_dulled_brass",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Dark_oxidized_bronze": {
+      "key": "Dark_oxidized_bronze",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Black_rope_and_knife": {
+      "key": "Black_rope_and_knife",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Brushed_dull_steel": {
+      "key": "Brushed_dull_steel",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    }
+  },
+  "maps": {
+    "color.png": {
+      "sha256": "c9c60e89c2b663daa97b813a42b5a697a34bdd827817f797070cbbdfdca63aef",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "normal.png": {
+      "sha256": "f786049566a7e57ee1e2e6c8b6151dec505d679d8a44809d475f5136beaa1b2f",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "roughness.png": {
+      "sha256": "57317b5bef59fc3f244d9b3864270f022096257eb1a2ceef1043c74638085bd1",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metallic.png": {
+      "sha256": "aad2b20721e24d1a17a2cf4d632fd0f9e47c86da860a9a98d10d007edb07d881",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "orm.png": {
+      "sha256": "02afbcf675695cb7b72808bb74abee47f582c7bf2058e9d23a526311a3e58fe4",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metal.png": {
+      "sha256": "5d61e71dffef0995411cf9c54604c33fa0a83f62501f57bb81b40006bd0d4f7d",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    }
+  },
+  "checks": {
+    "sourceBytesPreserved": true,
+    "nativeGeometryUVSignaturePreserved": true,
+    "serializedLoopArraysExact": true,
+    "triangles": true,
+    "finiteGeometryUVNormals": true
+  },
+  "excludedObjects": [
+    "_Review_Ground"
+  ],
+  "methodology": "Harness2 methodology-only; preserve native baseline, exact transfer and channel packing probe",
+  "limits": [
+    "Unity validation owned by companion agent",
+    "shapeCandidates are geometric evidence, not approved physical colliders"
+  ],
+  "outputs": {
+    "27-kater-pendulum.fbx": "643711b22ac007a744006c6088f92f66d04b8e334c064c9eb5ee77d0b2e23de9",
+    "color.png": "c9c60e89c2b663daa97b813a42b5a697a34bdd827817f797070cbbdfdca63aef",
+    "mesh.json": "1c05ea52ff85f57929ca3f20db149cf14bb02390728a69bdef7d342d5aefd07e",
+    "metal.png": "5d61e71dffef0995411cf9c54604c33fa0a83f62501f57bb81b40006bd0d4f7d",
+    "metallic.png": "aad2b20721e24d1a17a2cf4d632fd0f9e47c86da860a9a98d10d007edb07d881",
+    "normal.png": "f786049566a7e57ee1e2e6c8b6151dec505d679d8a44809d475f5136beaa1b2f",
+    "orm.png": "02afbcf675695cb7b72808bb74abee47f582c7bf2058e9d23a526311a3e58fe4",
+    "roughness.png": "57317b5bef59fc3f244d9b3864270f022096257eb1a2ceef1043c74638085bd1"
+  }
+}

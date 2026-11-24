@@ -16,7 +16,7 @@ public static class ValuableApi
     internal static readonly Dictionary<string,GameObject> Prefabs = new(StringComparer.Ordinal);
     internal static readonly Dictionary<string,PrefabRef> References = new(StringComparer.Ordinal);
     public static bool IsReady { get; internal set; }
-    public static string[] Keys => new[]{"experiment-cassette","control-sample","sensor-rod","calibration-weight","portable-gravimeter","gimbal-gyroscope","gravity-lens","mobius-strip","field-core"};
+    public static string[] Keys => new[]{"experiment-cassette","control-sample","sensor-rod","calibration-weight","portable-gravimeter","gimbal-gyroscope","gravity-lens","mobius-strip","field-core","anomaly-cryostat","corner-cube","free-fall-photogate","pirani-gauge-head","bullseye-level","atwood-machine","kater-pendulum","vertical-seismometer","hydrostatic-balance","vacuum-drop-column","cavendish-balance"};
     public static GameObject GetPrefab(string key)
     {
         if(!IsReady)throw new InvalidOperationException("Contour4 valuables registration is incomplete.");
@@ -33,7 +33,7 @@ public static class ValuableApi
     }
 }
 
-[BepInPlugin(Id,"Contour4 Valuables","0.2.3")]
+[BepInPlugin(Id,"Contour4 Valuables","0.2.4")]
 [BepInDependency("REPOLib",BepInDependency.DependencyFlags.HardDependency)]
 public sealed class Contour4ValuablesPlugin:BaseUnityPlugin
 {
@@ -61,7 +61,18 @@ public sealed class Contour4ValuablesPlugin:BaseUnityPlugin
         new("mobius-strip","08-mobius-strip",new(.52f,.43f,.22f),2.1f,1800,3000,ValuableVolume.Type.Small,50,65),
         // Uniform catalog-envelope fit; Wide metadata is not enrollment in vanilla pools.
         // Actual depth exceeds native Wide. Explicit map placement must validate exact bounds.
-        new("field-core","11-field-core",new(1.7059345f,.9693324f,1.55f),36,48000,65000,ValuableVolume.Type.Wide,25,90)
+        new("field-core","11-field-core",new(1.7059345f,.9693324f,1.55f),36,48000,65000,ValuableVolume.Type.Wide,25,90),
+        new("anomaly-cryostat","10-anomaly-cryostat",new(1.1840001344680786f,2.515500068664551f,0.9940000176429749f),22f,38000,52000,ValuableVolume.Type.Tall,70,40),
+        new("corner-cube","22-corner-cube",new(0.07999999821186066f,0.04364384710788727f,0.07967061549425125f),0.25f,450,800,ValuableVolume.Type.Tiny,70,40),
+        new("free-fall-photogate","23-free-fall-photogate",new(0.13226598501205444f,0.07447570562362671f,0.14000000059604645f),0.65f,700,1200,ValuableVolume.Type.Tiny,50,65),
+        new("pirani-gauge-head","24-pirani-gauge-head",new(0.12000000476837158f,0.055563487112522125f,0.05489036440849304f),0.4f,500,900,ValuableVolume.Type.Tiny,50,65),
+        new("bullseye-level","25-bullseye-level",new(0.08999999612569809f,0.017712516710162163f,0.08990725874900818f),0.18f,350,650,ValuableVolume.Type.Tiny,70,40),
+        new("atwood-machine","26-atwood-machine",new(0.5211686491966248f,0.800000011920929f,0.46212199330329895f),4.5f,1800,3000,ValuableVolume.Type.Medium,50,65),
+        new("kater-pendulum","27-kater-pendulum",new(0.5375704765319824f,0.949999988079071f,0.5390312671661377f),5.5f,2200,3600,ValuableVolume.Type.Medium,50,65),
+        new("vertical-seismometer","28-vertical-seismometer",new(0.5f,0.2788018584251404f,0.37608808279037476f),3.2f,1500,2600,ValuableVolume.Type.Small,70,40),
+        new("hydrostatic-balance","29-hydrostatic-balance",new(0.550000011920929f,0.4883887767791748f,0.282736599445343f),3.8f,1700,2900,ValuableVolume.Type.Small,70,40),
+        new("vacuum-drop-column","30-vacuum-drop-column",new(1.2597485780715942f,1.75f,1.1358388662338257f),18f,16000,24000,ValuableVolume.Type.Tall,70,40),
+        new("cavendish-balance","31-cavendish-balance",new(1.7999999523162842f,1.0844149589538574f,0.8228921890258789f),12f,12000,19000,ValuableVolume.Type.Wide,70,40)
     };
     void Awake()
     {
@@ -84,7 +95,7 @@ public sealed class Contour4ValuablesPlugin:BaseUnityPlugin
                 Logger.LogInfo($"Contour4 registered {spec.Key}: {spec.Size.x:F3}x{spec.Size.y:F3}x{spec.Size.z:F3}m, mass={spec.Mass:F2}, value={spec.Min:F0}-{spec.Max:F0}, fragility={spec.Fragility:F2}, durability={spec.Durability:F0}, id={reference.ResourcePath}");
             }
             ValuableApi.IsReady=true;
-            Logger.LogInfo("Contour4 valuables ready: nine registered network prefabs; explicit map spawns only; no vanilla Generic entries.");
+            Logger.LogInfo("Contour4 valuables ready: twenty registered network prefabs; explicit map spawns only; no vanilla Generic entries.");
         }
         catch(Exception e){ValuableApi.IsReady=false;Logger.LogError("Contour4 valuables initialization failed: "+e);}
     }
@@ -92,7 +103,7 @@ public sealed class Contour4ValuablesPlugin:BaseUnityPlugin
     {
         var prefab=Instantiate(template,staging!.transform,false);prefab.name="Contour4 "+spec.Key;
         prefab.transform.localPosition=Vector3.zero;prefab.transform.localRotation=Quaternion.identity;prefab.transform.localScale=Vector3.one;
-        var old=prefab.GetComponentsInChildren<Collider>(true).Where(c=>c.CompareTag("Phys Grab Object")).ToArray();if(old.Length==0)throw new InvalidDataException("Native grab colliders missing");int layer=old[0].gameObject.layer;
+        var old=prefab.GetComponentsInChildren<Collider>(true).Where(c=>c.CompareTag("Phys Grab Object")).ToArray();if(old.Length==0)throw new InvalidDataException("Native grab colliders missing");int layer=old[0].gameObject.layer;prefab.layer=layer;
         foreach(var c in old)DestroyImmediate(c);foreach(var c in prefab.GetComponentsInChildren<PhysGrabObjectCollider>(true))DestroyImmediate(c);
         foreach(var renderer in prefab.GetComponentsInChildren<Renderer>(true))if(renderer is MeshRenderer||renderer is SkinnedMeshRenderer)renderer.enabled=false;
         var obstacle=prefab.GetComponent<NavMeshObstacle>();if(obstacle)DestroyImmediate(obstacle);

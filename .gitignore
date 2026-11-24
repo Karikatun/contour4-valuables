@@ -1,0 +1,10 @@
+Unity/Library/
+Unity/Logs/
+Unity/Temp/
+Unity/UserSettings/
+Unity/obj/
+Plugin/bin/
+Plugin/obj/
+dist/compiled/
+dist/package/
+dist/bundles/*.manifest

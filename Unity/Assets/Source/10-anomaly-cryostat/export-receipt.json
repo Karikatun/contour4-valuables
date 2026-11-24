@@ -1,0 +1,879 @@
+{
+  "key": "anomaly-cryostat",
+  "source": "C:\\Users\\B-ZONE\\Documents\\ChatGPT\\space-journey\\contour4-valuables\\Native\\10-anomaly-cryostat.blend",
+  "sourceSha256": "d63cdac417adfee47a4bac012ded5fca8761a6e4ede1a0fd4d4b8c52ab60e933",
+  "nativeGeometrySignature": "b26c4d39085e1e135ec5aad6f185fd9d280ab7ead90c6b24405aa2a14be1d719",
+  "triangles": 11602,
+  "parts": 184,
+  "objects": 184,
+  "nativeBoundsMinXYZ": [
+    -0.5920000672340393,
+    -0.4970000088214874,
+    0.0
+  ],
+  "nativeBoundsMaxXYZ": [
+    0.5920000672340393,
+    0.4970000088214874,
+    2.515500068664551
+  ],
+  "unitySizeXYZ": [
+    1.1840001344680786,
+    2.515500068664551,
+    0.9940000176429749
+  ],
+  "pivot": "existing bottom-center; no coordinate alteration",
+  "normalOrientationScore": 0.9911222203068436,
+  "sourceOpposingNormalTriangles": 103,
+  "sourceOpposingNormalAreaFraction": 0.00037576879243010635,
+  "materials": {
+    "V5_BAKED_brass": {
+      "key": "V5_BAKED_brass",
+      "colorTexture": "v5-baked-brass-color.png",
+      "normalTexture": "v5-baked-brass-normal.png",
+      "metalTexture": "v5-baked-brass-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V5_BAKED_steel": {
+      "key": "V5_BAKED_steel",
+      "colorTexture": "v5-baked-steel-color.png",
+      "normalTexture": "v5-baked-steel-normal.png",
+      "metalTexture": "v5-baked-steel-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Chamber_CleanSteel_PBR": {
+      "key": "Chamber_CleanSteel_PBR",
+      "colorTexture": "chamber-cleansteel-pbr-color.png",
+      "normalTexture": "chamber-cleansteel-pbr-normal.png",
+      "metalTexture": "chamber-cleansteel-pbr-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V5_BAKED_copper": {
+      "key": "V5_BAKED_copper",
+      "colorTexture": "v5-baked-copper-color.png",
+      "normalTexture": "v5-baked-copper-normal.png",
+      "metalTexture": "v5-baked-copper-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V4_Dial_ink": {
+      "key": "V4_Dial_ink",
+      "colorTexture": "",
+      "normalTexture": "",
+      "metalTexture": "",
+      "color": [
+        0.012000000104308128,
+        0.01600000075995922,
+        0.014000000432133675,
+        1.0
+      ],
+      "metallic": 0.10000000149011612,
+      "smoothness": 0.3999999761581421,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V4_Warm_ivory_enamel": {
+      "key": "V4_Warm_ivory_enamel",
+      "colorTexture": "",
+      "normalTexture": "",
+      "metalTexture": "",
+      "color": [
+        0.6600000262260437,
+        0.6299999952316284,
+        0.5099999904632568,
+        1.0
+      ],
+      "metallic": 0.1599999964237213,
+      "smoothness": 0.5200000107288361,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "crystal_PBR.001": {
+      "key": "crystal_PBR.001",
+      "colorTexture": "crystal-pbr-001-color.png",
+      "normalTexture": "crystal-pbr-001-normal.png",
+      "metalTexture": "crystal-pbr-001-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V4_Dial_cream": {
+      "key": "V4_Dial_cream",
+      "colorTexture": "",
+      "normalTexture": "",
+      "metalTexture": "",
+      "color": [
+        0.8100000023841858,
+        0.7799999713897705,
+        0.6399999856948853,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "smoothness": 0.3999999761581421,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V5_BAKED_dome": {
+      "key": "V5_BAKED_dome",
+      "colorTexture": "v5-baked-dome-color.png",
+      "normalTexture": "v5-baked-dome-normal.png",
+      "metalTexture": "v5-baked-dome-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V5_BAKED_collar": {
+      "key": "V5_BAKED_collar",
+      "colorTexture": "v5-baked-collar-color.png",
+      "normalTexture": "v5-baked-collar-normal.png",
+      "metalTexture": "v5-baked-collar-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V5_BAKED_barrel": {
+      "key": "V5_BAKED_barrel",
+      "colorTexture": "v5-baked-barrel-color.png",
+      "normalTexture": "v5-baked-barrel-normal.png",
+      "metalTexture": "v5-baked-barrel-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V5_BAKED_window": {
+      "key": "V5_BAKED_window",
+      "colorTexture": "v5-baked-window-color.png",
+      "normalTexture": "v5-baked-window-normal.png",
+      "metalTexture": "v5-baked-window-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V5_BAKED_panel": {
+      "key": "V5_BAKED_panel",
+      "colorTexture": "v5-baked-panel-color.png",
+      "normalTexture": "v5-baked-panel-normal.png",
+      "metalTexture": "v5-baked-panel-metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "V4_Interior_DarkChamberSteel.002": {
+      "key": "V4_Interior_DarkChamberSteel.002",
+      "colorTexture": "",
+      "normalTexture": "",
+      "metalTexture": "",
+      "color": [
+        0.03500000014901161,
+        0.041999999433755875,
+        0.0430000014603138,
+        1.0
+      ],
+      "metallic": 0.550000011920929,
+      "smoothness": 0.44999998807907104,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Window_ClearGlass_Transmission1_IOR1.45": {
+      "key": "Window_ClearGlass_Transmission1_IOR1.45",
+      "colorTexture": "",
+      "normalTexture": "",
+      "metalTexture": "",
+      "color": [
+        0.9700000286102295,
+        0.9900000095367432,
+        1.0,
+        0.16
+      ],
+      "metallic": 0.0,
+      "smoothness": 0.9649999998509884,
+      "sourceAlpha": 1.0,
+      "transmission": 1.0,
+      "ior": 1.4500000476837158,
+      "unityGlassApproximation": true
+    }
+  },
+  "maps": {
+    "v5-baked-brass-color.png": {
+      "sha256": "2ef47db6aa2441d249f81ef2a5c4232b1f21e18815807b7908e007c4a951de68",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-brass-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "v5-baked-brass-metallic.png": {
+      "sha256": "2c5a76ad9220d9ad0cc0794be58de4f719b2713f5d0af7e7903f3b17d12f416e",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-brass-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-brass-roughness.png": {
+      "sha256": "f404cb425cce930ada114c65f9b717ba29dd6b63f5fb5083921dc44d87183e9f",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-brass-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-brass-normal.png": {
+      "sha256": "08e73c6c176732e38cec48bd1faa24c55082573651cd041b4d444ae81ef47e40",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-brass-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-brass-metal.png": {
+      "sha256": "432b8cd6caf9280c977c67c843ee6b5fdd819a2d43b90b1e5d2eb577285b5caa",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    },
+    "v5-baked-steel-color.png": {
+      "sha256": "b837498c2b32d9e638af0d16cb93fb8f908493407b095cfe52ead4782e6600b0",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-steel-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "v5-baked-steel-metallic.png": {
+      "sha256": "06690c9ee2ef7373f8e089d3f09d8203c78bba5e81d6e995e84895d4f38ecb26",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-steel-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-steel-roughness.png": {
+      "sha256": "8b562c3240294a211e78fe5a0797e8c19df5f57e04199af3afd0c520649b5446",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-steel-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-steel-normal.png": {
+      "sha256": "85bde0f3a979b3d76f0584edce67a0834d9bec2701a9f3b54f4b245b5a8d4151",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-steel-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-steel-metal.png": {
+      "sha256": "a77744788b5e5f8fe3b019f6cab87c4a74f45bfafa56cefa23370e1a99263147",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    },
+    "chamber-cleansteel-pbr-color.png": {
+      "sha256": "1158f9c03c11378baae2a4a844ee6965ab78a78fcf7219481b5412d5eb73c7c3",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "chamber-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "chamber-cleansteel-pbr-metallic.png": {
+      "sha256": "2639ae278490e06d46d642e2b912b8604b46a1fe38cde497057c92dbd1eb7f8c",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "chamber-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "chamber-cleansteel-pbr-roughness.png": {
+      "sha256": "784f11c65cbbf0d6e2aa4fc78de63f5862d8184a9c1bd0c60222fc576b8d5499",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "chamber-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "chamber-cleansteel-pbr-normal.png": {
+      "sha256": "ff799958d1ed7daaf5f0aa1631de4dcb8028ae069c71bc5686054b026c89296b",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "chamber-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "chamber-cleansteel-pbr-metal.png": {
+      "sha256": "c8400d629930a80b0267115e7b02929a8f2a5cf50c3d7fddcba1711d02ad4be0",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 0.0019532442092895508,
+      "originalBytes": false
+    },
+    "v5-baked-copper-color.png": {
+      "sha256": "8a7afeb4cc99ba2cd56b1974b00a73724a2191ecac9a2c27828b57ef373c529e",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-copper-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "v5-baked-copper-metallic.png": {
+      "sha256": "cd6ba68645a015477eb167892b6afabe5de9ea3f3332bd197f622d7dbeaf36b1",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-copper-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-copper-roughness.png": {
+      "sha256": "8ca2120c23d37375610ca5c555b424f5726ea6ba071b36ebb747b105bf034db3",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-copper-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-copper-normal.png": {
+      "sha256": "49a96b82ba94eafb227896d46acebe52ba0eafeb8332262986c0edf7528aa332",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-copper-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-copper-metal.png": {
+      "sha256": "82011a75e0e3da382a826cf9077505298ec0e7430149835156c99f848659a1e2",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    },
+    "crystal-pbr-001-color.png": {
+      "sha256": "4c2c64b19bf916dabcb0bdcef8d1d6f904af0f240cf3527dc626884100a841b2",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "crystal-reprojected-basecolor.001",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "crystal-pbr-001-metallic.png": {
+      "sha256": "aad930b2759b90b23acb59253c6c327c311bf91ead62d2925ddce6b1842756fe",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "crystal-reprojected-metallic.001",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "crystal-pbr-001-roughness.png": {
+      "sha256": "1aead6c1459eabd86481d55cec673576f1e25ed4e7e29d88d02b6cf83429fe71",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "crystal-reprojected-roughness.001",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "crystal-pbr-001-normal.png": {
+      "sha256": "c9304bf07978d5e647872fd08304c5070f8d4273f0b19af33b60efa0077db5c4",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "crystal-reprojected-normal.001",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "crystal-pbr-001-metal.png": {
+      "sha256": "1485e5bf53858dd407cc5de9a7d3b081435f668d8016fdea292e13590143e613",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 0.0019532442092895508,
+      "originalBytes": false
+    },
+    "v5-baked-dome-color.png": {
+      "sha256": "c3d21ea78f329dda6cce301a6c58c45331cf894dec4c8703f6316ee0a92ce183",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-dome-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "v5-baked-dome-metallic.png": {
+      "sha256": "5cd5c7c6918019698eb4f66d40eb2f2266ed715bd1f81faf76aac1f88142163d",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-dome-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-dome-roughness.png": {
+      "sha256": "8c2305b0010c37321ebf3ef1d2405305bca985e58fdc9c5d7b408a1286c8cd71",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-dome-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-dome-normal.png": {
+      "sha256": "a137f7fb00ba6876c1f65aed56cc36144f8d846925f25563db3631322685ed6f",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-dome-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-dome-metal.png": {
+      "sha256": "fc985e2e2302a1bc9a86fde084e62753c7c5f5674dcee03fee288f5b331db216",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    },
+    "v5-baked-collar-color.png": {
+      "sha256": "8a262ca5333ca1bb250e931340e65c673e4f6aa798dee77aac10e863215a60d0",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-collar-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "v5-baked-collar-metallic.png": {
+      "sha256": "18bd71207f9dbfbe46d9482d09d32bcaaa1af485b84bfc2cf49de253ce6b987b",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-collar-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-collar-roughness.png": {
+      "sha256": "38b62283563eefb14ee94cbf9cf2630afd438a809eabaa63d4a3560245468363",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-collar-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-collar-normal.png": {
+      "sha256": "1d8e47f188522374a922197e4ae89762f8a1cd3d32117f1d026440d182c6c7ad",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-collar-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-collar-metal.png": {
+      "sha256": "fe2ba0b1c599528b68ecac28cf46bf8f0818e3d4de18accb2639d073c8b56296",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    },
+    "v5-baked-barrel-color.png": {
+      "sha256": "f98b60de2fa441a8543efe1f7a1e0e9826fd4a997904112547f80e0c82779f24",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-barrel-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "v5-baked-barrel-metallic.png": {
+      "sha256": "58d0b9162f580bf346376b00a9a62e63c8d0ab217fac0204d3d5b409cb49edb7",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-barrel-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-barrel-roughness.png": {
+      "sha256": "b5813023ac5f1318f40df3170b980710fb1f04640c0fac4fe39adbe399e4a050",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-barrel-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-barrel-normal.png": {
+      "sha256": "a3b7e226db11dff9795badb62bd42c92565cbde9458f41e78b11fd98ea4d5589",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-barrel-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-barrel-metal.png": {
+      "sha256": "396d721a73e47285c02173c35230d29cdfb0c716d2b65016f5ff7260eb14249d",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    },
+    "v5-baked-window-color.png": {
+      "sha256": "8cdf08ef7b7021701952baf4b6948a43521cfe38d8f784c19f316ceedf9912f3",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-window-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "v5-baked-window-metallic.png": {
+      "sha256": "c8238135d9f817f14f36621185a380c78ebccde16329a957dd8e4f0b51774179",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-window-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-window-roughness.png": {
+      "sha256": "d6fec9f3298592b3c239dad602ad42fc11c7a69160de93ff28d8938546b8db30",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-window-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-window-normal.png": {
+      "sha256": "4a5eefa3bd165f36a06b4e0f4ccdbcb13d76950d06baeca85d5aa4d264d5880f",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-window-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-window-metal.png": {
+      "sha256": "c224a63e2f93891c9e5bfb375c28c7fac61b0cda4b9b9d01708d642337907d63",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    },
+    "v5-baked-panel-color.png": {
+      "sha256": "e0da479467dce863096069ae6d0cec3849f607ea1ffe61bfabc234bf1a583615",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-panel-basecolor",
+      "originalBytes": true,
+      "colorspace": "sRGB"
+    },
+    "v5-baked-panel-metallic.png": {
+      "sha256": "e33428077010cfbf797301a0d07b38fbe8eb707f1250867a53be00eff7fd32e0",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-panel-metallic",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-panel-roughness.png": {
+      "sha256": "89607a454bc0dc050bfdd7d128e2bb420bf0dc0128a40f82fc68460dd1d912c6",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-panel-roughness",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-panel-normal.png": {
+      "sha256": "a4a234cdf7bebd92d663671746bdb868572b39db2f6ed66de4341f0224f6c821",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceImage": "v5-panel-normal",
+      "originalBytes": true,
+      "colorspace": "Non-Color"
+    },
+    "v5-baked-panel-metal.png": {
+      "sha256": "0be11eeadf2700c7fce788d3033002da08e20dcdaf6397b8277e34bfcf5575c8",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    }
+  },
+  "checks": {
+    "sourceBytesPreserved": true,
+    "nativeGeometryUVSignaturePreserved": true,
+    "serializedLoopArraysExact": true,
+    "triangles": true,
+    "finiteGeometryUVNormals": true
+  },
+  "excludedObjects": [],
+  "methodology": "Harness2 methodology-only; preserve native baseline, exact transfer and channel packing probe",
+  "limits": [
+    "Unity validation owned by companion agent",
+    "shapeCandidates are geometric evidence, not approved physical colliders"
+  ],
+  "outputs": {
+    "10-anomaly-cryostat.fbx": "966b06f39d51d40208896263589e53410e4f532b9ed192e2bd8bca12dac2ab62",
+    "chamber-cleansteel-pbr-color.png": "1158f9c03c11378baae2a4a844ee6965ab78a78fcf7219481b5412d5eb73c7c3",
+    "chamber-cleansteel-pbr-metal.png": "c8400d629930a80b0267115e7b02929a8f2a5cf50c3d7fddcba1711d02ad4be0",
+    "chamber-cleansteel-pbr-metallic.png": "2639ae278490e06d46d642e2b912b8604b46a1fe38cde497057c92dbd1eb7f8c",
+    "chamber-cleansteel-pbr-normal.png": "ff799958d1ed7daaf5f0aa1631de4dcb8028ae069c71bc5686054b026c89296b",
+    "chamber-cleansteel-pbr-roughness.png": "784f11c65cbbf0d6e2aa4fc78de63f5862d8184a9c1bd0c60222fc576b8d5499",
+    "crystal-pbr-001-color.png": "4c2c64b19bf916dabcb0bdcef8d1d6f904af0f240cf3527dc626884100a841b2",
+    "crystal-pbr-001-metal.png": "1485e5bf53858dd407cc5de9a7d3b081435f668d8016fdea292e13590143e613",
+    "crystal-pbr-001-metallic.png": "aad930b2759b90b23acb59253c6c327c311bf91ead62d2925ddce6b1842756fe",
+    "crystal-pbr-001-normal.png": "c9304bf07978d5e647872fd08304c5070f8d4273f0b19af33b60efa0077db5c4",
+    "crystal-pbr-001-roughness.png": "1aead6c1459eabd86481d55cec673576f1e25ed4e7e29d88d02b6cf83429fe71",
+    "mesh.json": "0faa0c8e73f009624e1462afc507d513aa4c1b9e4ec89de7677726e0bbbc7517",
+    "v5-baked-barrel-color.png": "f98b60de2fa441a8543efe1f7a1e0e9826fd4a997904112547f80e0c82779f24",
+    "v5-baked-barrel-metal.png": "396d721a73e47285c02173c35230d29cdfb0c716d2b65016f5ff7260eb14249d",
+    "v5-baked-barrel-metallic.png": "58d0b9162f580bf346376b00a9a62e63c8d0ab217fac0204d3d5b409cb49edb7",
+    "v5-baked-barrel-normal.png": "a3b7e226db11dff9795badb62bd42c92565cbde9458f41e78b11fd98ea4d5589",
+    "v5-baked-barrel-roughness.png": "b5813023ac5f1318f40df3170b980710fb1f04640c0fac4fe39adbe399e4a050",
+    "v5-baked-brass-color.png": "2ef47db6aa2441d249f81ef2a5c4232b1f21e18815807b7908e007c4a951de68",
+    "v5-baked-brass-metal.png": "432b8cd6caf9280c977c67c843ee6b5fdd819a2d43b90b1e5d2eb577285b5caa",
+    "v5-baked-brass-metallic.png": "2c5a76ad9220d9ad0cc0794be58de4f719b2713f5d0af7e7903f3b17d12f416e",
+    "v5-baked-brass-normal.png": "08e73c6c176732e38cec48bd1faa24c55082573651cd041b4d444ae81ef47e40",
+    "v5-baked-brass-roughness.png": "f404cb425cce930ada114c65f9b717ba29dd6b63f5fb5083921dc44d87183e9f",
+    "v5-baked-collar-color.png": "8a262ca5333ca1bb250e931340e65c673e4f6aa798dee77aac10e863215a60d0",
+    "v5-baked-collar-metal.png": "fe2ba0b1c599528b68ecac28cf46bf8f0818e3d4de18accb2639d073c8b56296",
+    "v5-baked-collar-metallic.png": "18bd71207f9dbfbe46d9482d09d32bcaaa1af485b84bfc2cf49de253ce6b987b",
+    "v5-baked-collar-normal.png": "1d8e47f188522374a922197e4ae89762f8a1cd3d32117f1d026440d182c6c7ad",
+    "v5-baked-collar-roughness.png": "38b62283563eefb14ee94cbf9cf2630afd438a809eabaa63d4a3560245468363",
+    "v5-baked-copper-color.png": "8a7afeb4cc99ba2cd56b1974b00a73724a2191ecac9a2c27828b57ef373c529e",
+    "v5-baked-copper-metal.png": "82011a75e0e3da382a826cf9077505298ec0e7430149835156c99f848659a1e2",
+    "v5-baked-copper-metallic.png": "cd6ba68645a015477eb167892b6afabe5de9ea3f3332bd197f622d7dbeaf36b1",
+    "v5-baked-copper-normal.png": "49a96b82ba94eafb227896d46acebe52ba0eafeb8332262986c0edf7528aa332",
+    "v5-baked-copper-roughness.png": "8ca2120c23d37375610ca5c555b424f5726ea6ba071b36ebb747b105bf034db3",
+    "v5-baked-dome-color.png": "c3d21ea78f329dda6cce301a6c58c45331cf894dec4c8703f6316ee0a92ce183",
+    "v5-baked-dome-metal.png": "fc985e2e2302a1bc9a86fde084e62753c7c5f5674dcee03fee288f5b331db216",
+    "v5-baked-dome-metallic.png": "5cd5c7c6918019698eb4f66d40eb2f2266ed715bd1f81faf76aac1f88142163d",
+    "v5-baked-dome-normal.png": "a137f7fb00ba6876c1f65aed56cc36144f8d846925f25563db3631322685ed6f",
+    "v5-baked-dome-roughness.png": "8c2305b0010c37321ebf3ef1d2405305bca985e58fdc9c5d7b408a1286c8cd71",
+    "v5-baked-panel-color.png": "e0da479467dce863096069ae6d0cec3849f607ea1ffe61bfabc234bf1a583615",
+    "v5-baked-panel-metal.png": "0be11eeadf2700c7fce788d3033002da08e20dcdaf6397b8277e34bfcf5575c8",
+    "v5-baked-panel-metallic.png": "e33428077010cfbf797301a0d07b38fbe8eb707f1250867a53be00eff7fd32e0",
+    "v5-baked-panel-normal.png": "a4a234cdf7bebd92d663671746bdb868572b39db2f6ed66de4341f0224f6c821",
+    "v5-baked-panel-roughness.png": "89607a454bc0dc050bfdd7d128e2bb420bf0dc0128a40f82fc68460dd1d912c6",
+    "v5-baked-steel-color.png": "b837498c2b32d9e638af0d16cb93fb8f908493407b095cfe52ead4782e6600b0",
+    "v5-baked-steel-metal.png": "a77744788b5e5f8fe3b019f6cab87c4a74f45bfafa56cefa23370e1a99263147",
+    "v5-baked-steel-metallic.png": "06690c9ee2ef7373f8e089d3f09d8203c78bba5e81d6e995e84895d4f38ecb26",
+    "v5-baked-steel-normal.png": "85bde0f3a979b3d76f0584edce67a0834d9bec2701a9f3b54f4b245b5a8d4151",
+    "v5-baked-steel-roughness.png": "8b562c3240294a211e78fe5a0797e8c19df5f57e04199af3afd0c520649b5446",
+    "v5-baked-window-color.png": "8cdf08ef7b7021701952baf4b6948a43521cfe38d8f784c19f316ceedf9912f3",
+    "v5-baked-window-metal.png": "c224a63e2f93891c9e5bfb375c28c7fac61b0cda4b9b9d01708d642337907d63",
+    "v5-baked-window-metallic.png": "c8238135d9f817f14f36621185a380c78ebccde16329a957dd8e4f0b51774179",
+    "v5-baked-window-normal.png": "4a5eefa3bd165f36a06b4e0f4ccdbcb13d76950d06baeca85d5aa4d264d5880f",
+    "v5-baked-window-roughness.png": "d6fec9f3298592b3c239dad602ad42fc11c7a69160de93ff28d8938546b8db30"
+  }
+}

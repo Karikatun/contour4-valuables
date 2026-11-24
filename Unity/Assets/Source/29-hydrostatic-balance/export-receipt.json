@@ -1,0 +1,234 @@
+{
+  "key": "hydrostatic-balance",
+  "source": "C:\\Users\\B-ZONE\\Documents\\ChatGPT\\space-journey\\prototype\\valuable-models\\gravity-lab-meshy\\textured\\29-hydrostatic-balance\\29-hydrostatic-balance.blend",
+  "sourceSha256": "6c6f766189d93cd82868d10d1a42dfe2b0d8165af268cacf05a4279a5f8fc53b",
+  "nativeGeometrySignature": "3ded8a81e3b1f66b2c156e394d4ffb0231eb2d238c4272252824bda62a6b11e2",
+  "triangles": 3191,
+  "parts": 42,
+  "objects": 41,
+  "nativeBoundsMinXYZ": [
+    -0.2750000059604645,
+    -0.1413682997226715,
+    0.0
+  ],
+  "nativeBoundsMaxXYZ": [
+    0.2750000059604645,
+    0.1413682997226715,
+    0.4883887767791748
+  ],
+  "unitySizeXYZ": [
+    0.550000011920929,
+    0.4883887767791748,
+    0.282736599445343
+  ],
+  "pivot": "existing bottom-center; no coordinate alteration",
+  "normalOrientationScore": 1.0,
+  "sourceOpposingNormalTriangles": 0,
+  "sourceOpposingNormalAreaFraction": 0.0,
+  "materials": {
+    "Warm_dulled_brass": {
+      "key": "Warm_dulled_brass",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Aged_ivory_enamel": {
+      "key": "Aged_ivory_enamel",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Charcoal_cast_iron": {
+      "key": "Charcoal_cast_iron",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Clear_guard_optical_glass": {
+      "key": "Clear_guard_optical_glass",
+      "colorTexture": "",
+      "normalTexture": "",
+      "metalTexture": "",
+      "color": [
+        0.6444796919822693,
+        0.7835378050804138,
+        0.7681511640548706,
+        0.23999999463558197
+      ],
+      "metallic": 0.0,
+      "smoothness": 0.9649999998509884,
+      "sourceAlpha": 0.23999999463558197,
+      "transmission": 0.949999988079071,
+      "ior": 1.4600000381469727,
+      "unityGlassApproximation": false
+    },
+    "Clear_beaker_lower_blue_impression": {
+      "key": "Clear_beaker_lower_blue_impression",
+      "colorTexture": "",
+      "normalTexture": "",
+      "metalTexture": "",
+      "color": [
+        0.28314873576164246,
+        0.5583403706550598,
+        0.6172065734863281,
+        0.3799999952316284
+      ],
+      "metallic": 0.0,
+      "smoothness": 0.8900000005960464,
+      "sourceAlpha": 0.3799999952316284,
+      "transmission": 0.8799999952316284,
+      "ior": 1.4600000381469727,
+      "unityGlassApproximation": false
+    },
+    "Dark_oxidized_bronze": {
+      "key": "Dark_oxidized_bronze",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Brushed_dull_steel": {
+      "key": "Brushed_dull_steel",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    }
+  },
+  "maps": {
+    "color.png": {
+      "sha256": "69f22a58b1c05902c7ed6c9eac4e6b2c4362d743f4ab5792e2e5eb603a03aa21",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "normal.png": {
+      "sha256": "b9aab17b6f70414636ef28426c6928fcf5870e5b683bb893a4f7a91f86161d5f",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "roughness.png": {
+      "sha256": "e75db457e3bb400d32ab2737fce0ab8d5bdc26d4865fa24f19eb6e64c5832750",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metallic.png": {
+      "sha256": "133ad9b2d13b73e7a8c856a1ba9e966bc0f6c79804e4cc79b4cdcfed89d3a12d",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "orm.png": {
+      "sha256": "e1e36bcd520d496cfbb3182cfdce18befd9e92674f09eecd7af0cee13874284e",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metal.png": {
+      "sha256": "f620f37f09898add24ec5111bf6b5f4fcefc6f708973166bd64c8fd943393bcf",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    }
+  },
+  "checks": {
+    "sourceBytesPreserved": true,
+    "nativeGeometryUVSignaturePreserved": true,
+    "serializedLoopArraysExact": true,
+    "triangles": true,
+    "finiteGeometryUVNormals": true
+  },
+  "excludedObjects": [
+    "_Review_Ground"
+  ],
+  "methodology": "Harness2 methodology-only; preserve native baseline, exact transfer and channel packing probe",
+  "limits": [
+    "Unity validation owned by companion agent",
+    "shapeCandidates are geometric evidence, not approved physical colliders"
+  ],
+  "outputs": {
+    "29-hydrostatic-balance.fbx": "e8286f1e1ed49d3861aa963b6c91a6393d26cff4402b8efbcb4d37ac53b6e47e",
+    "color.png": "69f22a58b1c05902c7ed6c9eac4e6b2c4362d743f4ab5792e2e5eb603a03aa21",
+    "mesh.json": "6a771841bcc62ad220ada3b7dc5a8103bf48fce3bf7faa004e4945cf4acd6eac",
+    "metal.png": "f620f37f09898add24ec5111bf6b5f4fcefc6f708973166bd64c8fd943393bcf",
+    "metallic.png": "133ad9b2d13b73e7a8c856a1ba9e966bc0f6c79804e4cc79b4cdcfed89d3a12d",
+    "normal.png": "b9aab17b6f70414636ef28426c6928fcf5870e5b683bb893a4f7a91f86161d5f",
+    "orm.png": "e1e36bcd520d496cfbb3182cfdce18befd9e92674f09eecd7af0cee13874284e",
+    "roughness.png": "e75db457e3bb400d32ab2737fce0ab8d5bdc26d4865fa24f19eb6e64c5832750"
+  }
+}

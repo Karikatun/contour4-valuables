@@ -1,0 +1,234 @@
+{
+  "key": "vacuum-drop-column",
+  "source": "C:\\Users\\B-ZONE\\Documents\\ChatGPT\\space-journey\\prototype\\valuable-models\\gravity-lab-meshy\\textured\\30-vacuum-drop-column\\30-vacuum-drop-column.blend",
+  "sourceSha256": "dad90bb85b550bb9fdb9e60844b8c484c44c10487a43fe58e94460c6b1427251",
+  "nativeGeometrySignature": "b28dfc9ec972a949eac4b5b8956e2e1dd682b7188cac88762e552edeb1fa35e0",
+  "triangles": 5637,
+  "parts": 146,
+  "objects": 146,
+  "nativeBoundsMinXYZ": [
+    -0.6298742890357971,
+    -0.5679194331169128,
+    0.0
+  ],
+  "nativeBoundsMaxXYZ": [
+    0.6298742890357971,
+    0.5679194331169128,
+    1.75
+  ],
+  "unitySizeXYZ": [
+    1.2597485780715942,
+    1.75,
+    1.1358388662338257
+  ],
+  "pivot": "existing bottom-center; no coordinate alteration",
+  "normalOrientationScore": 1.0,
+  "sourceOpposingNormalTriangles": 0,
+  "sourceOpposingNormalAreaFraction": 0.0,
+  "materials": {
+    "Chamber satin brushed stainless": {
+      "key": "Chamber satin brushed stainless",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Optics gunmetal cast finish": {
+      "key": "Optics gunmetal cast finish",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Machined steel fasteners": {
+      "key": "Machined steel fasteners",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Coated violet optical windows": {
+      "key": "Coated violet optical windows",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Dark ion pump casing": {
+      "key": "Dark ion pump casing",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Worn olive enamel outer tripod": {
+      "key": "Worn olive enamel outer tripod",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Ochre vibration isolator arms": {
+      "key": "Ochre vibration isolator arms",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    }
+  },
+  "maps": {
+    "color.png": {
+      "sha256": "7b01da768124dce2e0ef35541f18b446a182db25af6f6828841294220585f055",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "normal.png": {
+      "sha256": "857e38308e766f3a6f2c64b7bb82dc5135f79c520ec183afb2ec1a09a631a43b",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "roughness.png": {
+      "sha256": "911a594a53446e129c78466ecd48817d1da364a79dabf65480e937036095fa86",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "metallic.png": {
+      "sha256": "e7a3fe74da62830768b94d0878aae81d0675402d4a9bdc1412e7ff5ffbd0227f",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "orm.png": {
+      "sha256": "56ad514707955cd1c02aa6281cdf009dfe7e3154af46b24e4cf775384d775a09",
+      "size": [
+        1024,
+        1024
+      ],
+      "originalBytes": true
+    },
+    "metal.png": {
+      "sha256": "c07b347d47fcfb77553b2c0bb6e99dfc5565f59130005d0fcae807d8568600a4",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    }
+  },
+  "checks": {
+    "sourceBytesPreserved": true,
+    "nativeGeometryUVSignaturePreserved": true,
+    "serializedLoopArraysExact": true,
+    "triangles": true,
+    "finiteGeometryUVNormals": true
+  },
+  "excludedObjects": [
+    "_Review_Ground"
+  ],
+  "methodology": "Harness2 methodology-only; preserve native baseline, exact transfer and channel packing probe",
+  "limits": [
+    "Unity validation owned by companion agent",
+    "shapeCandidates are geometric evidence, not approved physical colliders"
+  ],
+  "outputs": {
+    "30-vacuum-drop-column.fbx": "5a4b0df6f661be622fd6e8b568770d26d5503395f599b856707002f36e779cca",
+    "color.png": "7b01da768124dce2e0ef35541f18b446a182db25af6f6828841294220585f055",
+    "mesh.json": "6e89b11a8e576defc0242dc7b78dc371d07b9a759cd31c64399f8d4d7a2bc352",
+    "metal.png": "c07b347d47fcfb77553b2c0bb6e99dfc5565f59130005d0fcae807d8568600a4",
+    "metallic.png": "e7a3fe74da62830768b94d0878aae81d0675402d4a9bdc1412e7ff5ffbd0227f",
+    "normal.png": "857e38308e766f3a6f2c64b7bb82dc5135f79c520ec183afb2ec1a09a631a43b",
+    "orm.png": "56ad514707955cd1c02aa6281cdf009dfe7e3154af46b24e4cf775384d775a09",
+    "roughness.png": "911a594a53446e129c78466ecd48817d1da364a79dabf65480e937036095fa86"
+  }
+}

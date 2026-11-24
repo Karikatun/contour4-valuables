@@ -1,0 +1,144 @@
+{
+  "key": "bullseye-level",
+  "source": "C:\\Users\\B-ZONE\\Documents\\ChatGPT\\space-journey\\prototype\\valuable-models\\gravity-lab-meshy\\textured\\25-bullseye-level\\25-bullseye-level.blend",
+  "sourceSha256": "f07221d5bc60c8b93b87555825f8bc38681ea5dabf48d4782e869d74e3d383a6",
+  "nativeGeometrySignature": "eb4469b18789039ce4ff37393ae0d3534f8b66004685a8abdb66af71f62415ae",
+  "triangles": 1933,
+  "parts": 2,
+  "objects": 1,
+  "nativeBoundsMinXYZ": [
+    -0.044999998062849045,
+    -0.04495362937450409,
+    0.0
+  ],
+  "nativeBoundsMaxXYZ": [
+    0.044999998062849045,
+    0.04495362937450409,
+    0.017712516710162163
+  ],
+  "unitySizeXYZ": [
+    0.08999999612569809,
+    0.017712516710162163,
+    0.08990725874900818
+  ],
+  "pivot": "existing bottom-center; no coordinate alteration",
+  "normalOrientationScore": 1.0,
+  "sourceOpposingNormalTriangles": 0,
+  "sourceOpposingNormalAreaFraction": 0.0,
+  "materials": {
+    "Level body brass and optical fluid spatial shader": {
+      "key": "Level body brass and optical fluid spatial shader",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    },
+    "Off center glossy air bubble": {
+      "key": "Off center glossy air bubble",
+      "colorTexture": "color.png",
+      "normalTexture": "normal.png",
+      "metalTexture": "metal.png",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 1.0,
+      "smoothness": 1.0,
+      "sourceAlpha": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "unityGlassApproximation": false
+    }
+  },
+  "maps": {
+    "color.png": {
+      "sha256": "9d07b6ed217a8361bb5b4bb08d89d1643a9ae88551aa8c404d597ef59074a172",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "normal.png": {
+      "sha256": "f500e14f8d4606d88de3f220629caede454ac3a91010bda87307a22dd0823231",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "roughness.png": {
+      "sha256": "3b66ece1e44e59306617095d2cec41df1366d4d1b28fc15cde503dce5057cfce",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metallic.png": {
+      "sha256": "7c7860bb20670097b5930da73318d85651d90f658618566fa7e0105c8ecb45f3",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "orm.png": {
+      "sha256": "eefc106ef4c5986465f0d725d050bbad139cdb0260423fcb209e3095c9103120",
+      "size": [
+        512,
+        512
+      ],
+      "originalBytes": true
+    },
+    "metal.png": {
+      "sha256": "8a3141ecd8db8dd686578f34507afd2fa4649b992a9d4a0c2d43ccb09de64d9f",
+      "size": [
+        512,
+        512
+      ],
+      "colorspace": "Non-Color",
+      "channels": "R=metallic,A=1-roughness",
+      "maxQuantizationError": 1.1920928955078125e-07,
+      "originalBytes": false
+    }
+  },
+  "checks": {
+    "sourceBytesPreserved": true,
+    "nativeGeometryUVSignaturePreserved": true,
+    "serializedLoopArraysExact": true,
+    "triangles": true,
+    "finiteGeometryUVNormals": true
+  },
+  "excludedObjects": [
+    "_Review_Ground"
+  ],
+  "methodology": "Harness2 methodology-only; preserve native baseline, exact transfer and channel packing probe",
+  "limits": [
+    "Unity validation owned by companion agent",
+    "shapeCandidates are geometric evidence, not approved physical colliders"
+  ],
+  "outputs": {
+    "25-bullseye-level.fbx": "69474ea26da101bcb9b53d132405de595db74b6d851a5c218fe8ae5fccec0e7c",
+    "color.png": "9d07b6ed217a8361bb5b4bb08d89d1643a9ae88551aa8c404d597ef59074a172",
+    "mesh.json": "1b40c62ecd0a6be2cf3903c32a6ae231c0ec3ef1581d02fe67e5b890414b61f5",
+    "metal.png": "8a3141ecd8db8dd686578f34507afd2fa4649b992a9d4a0c2d43ccb09de64d9f",
+    "metallic.png": "7c7860bb20670097b5930da73318d85651d90f658618566fa7e0105c8ecb45f3",
+    "normal.png": "f500e14f8d4606d88de3f220629caede454ac3a91010bda87307a22dd0823231",
+    "orm.png": "eefc106ef4c5986465f0d725d050bbad139cdb0260423fcb209e3095c9103120",
+    "roughness.png": "3b66ece1e44e59306617095d2cec41df1366d4d1b28fc15cde503dce5057cfce"
+  }
+}

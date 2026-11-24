@@ -1,8 +1,8 @@
 {
   "name": "Contour4Valuables",
-  "version_number": "0.2.3",
+  "version_number": "0.2.4",
   "website_url": "",
-  "description": "Nine original gravity institute valuables for Contour4. Explicit map spawns only.",
+  "description": "Twenty original gravity institute valuables for Contour4. Explicit map spawns only.",
   "dependencies": ["BepInEx-BepInExPack-5.4.2305", "Zehs-REPOLib-4.5.1"]
 }
 
